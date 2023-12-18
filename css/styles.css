@@ -144,15 +144,20 @@ button:focus,
 }
 
 .form-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+form {
+    width: 50%;
 }
 
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
+    padding: 20px;
 }
 
 .grid__item {
