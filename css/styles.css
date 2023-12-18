@@ -143,6 +143,12 @@ button:focus,
     text-align: center;
 }
 
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
